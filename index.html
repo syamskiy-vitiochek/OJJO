@@ -303,7 +303,24 @@
             </div>
         </div>
     </div>
- 
+    <div class="wrap canvas-wrap">
+        <div class="container">
+            <section class="canvas">
+                <div>
+                    <canvas id="canvas" class="canvas__main"></canvas>
+                </div>
+                <div>
+                    <form class="canvas__painting-tools" action="">
+                        <b>Выберите цвет маркера</b>
+                        <input id="canvas-color" name="canvas-color" type="color">
+                        <b>Выберите толщину кисти</b>
+                        <input min="1" max="100" value="4" id="canvas-range" name="canvas-range" type="range">
+                    </form>
+                </div>
+        
+            </section>
+        </div>
+        </div>
     <div class="parent">
         <div class="elem d-none">
             <div id="gallery" class="wrap gallery-wrap">

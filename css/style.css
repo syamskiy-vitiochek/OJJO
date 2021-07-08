@@ -369,6 +369,28 @@ img {
 
 /* slider end */
 
+/*canvas start*/
+.canvas-wrap{
+    min-height: 500px;
+}
+.canvas{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+}
+.canvas__main{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.canvas__painting-tools{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+}
+/*canvas end*/
+
 /* gallery start*/
 
 .gallery-wrap {
